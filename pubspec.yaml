@@ -1,0 +1,33 @@
+name: mobile_attendance_tracking
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  carousel_slider: ^4.0.0
+  google_fonts: ^4.0.4
+  flutter_map: ^4.0.0  # Check for the latest version on pub.dev
+  latlong2: ^0.8.1  # For handling coordinates
+  flutter_colorpicker: ^1.0.3 # Add this line
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/CROPIMAG_PROFILE.JPG
+    - assets/dashboard.png
+    - assets/employee.png
+    - assets/Screenshot 2024-07-22 011726.png
+    - assets/personal_logo.png
